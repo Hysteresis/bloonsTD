@@ -1,0 +1,8 @@
+{
+    "/api/*": {
+      "target": "https://statsnite.com",
+      "secure": false,
+      "changeOrigin": true
+    }
+  }
+  
