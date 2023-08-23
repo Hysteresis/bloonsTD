@@ -1,0 +1,9 @@
+<p>tower-list works!</p>
+<div *ngIf="towers">
+    <h2>List of Towers</h2>
+    <ul>
+      <li *ngFor="let tower of towers">
+        {{ tower.name }} - {{ tower.damage }} - {{ tower.range }} <!-- Change property names accordingly -->
+      </li>
+    </ul>
+  </div>
